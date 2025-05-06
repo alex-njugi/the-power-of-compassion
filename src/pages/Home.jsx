@@ -9,8 +9,8 @@ function Home() {
               "Whatsoever you do to the least of my brothers and sisters, that you do unto me." (Matthew 25:40)
             </p>
             <div className="hero-buttons">
-              <a href="/get-involved" className="btn">Join Us</a>
-              <a href="/donate" className="btn btn-secondary">Donate Now</a>
+              <Link to="/get-involved" className="btn">Join Us</Link>
+              <Link to="/donate" className="btn btn-secondary">Donate Now</Link>
             </div>
           </div>
         </section>
