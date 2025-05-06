@@ -64,65 +64,8 @@
       gap: 0.8rem;
     }
   }
+
   
-  /* Base styles */
-.navbar {
-  background: white;
-  padding: 1rem;
-  position: relative;
-  z-index: 1000;
-}
-
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: black;
-}
-
-/* Hamburger icon hidden by default */
-.menu-icon {
-  display: none;
-  cursor: pointer;
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: white;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .nav-links li {
-    margin-bottom: 1rem;
-  }
-}
-
-
   /* ========== HOME PAGE ========== */
 .home {
   font-family: 'Segoe UI', sans-serif;
